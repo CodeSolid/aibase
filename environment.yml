@@ -23,3 +23,4 @@ dependencies:
     - langchain-huggingface
     - transformers
     - pipdeptree
+    - tf_keras
