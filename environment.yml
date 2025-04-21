@@ -1,0 +1,25 @@
+name: ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.10
+  - pip=25.0.1
+  - jupyterlab
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip:
+    - torch
+    - tensorflow
+    - langchain-ollama
+    - scikit-learn
+    - numpy
+    - scipy
+    - keras
+    - langchain-openai
+    - langchain-anthropic
+    - langchain-mistralai
+    - langchain-huggingface
+    - transformers
+    - pipdeptree
