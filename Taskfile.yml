@@ -14,4 +14,4 @@ tasks:
   jupyter:
     desc: Run Jupyter in the Docker container
     cmds:
-      - docker run -p 8888:8888 -it --rm --env-file .env -v ${PWD}:/app aibase jupyter lab --no-browser --ip="0.0.0.0" --allow-root --NotebookApp.token='' --NotebookApp.password=''
+      - docker run -u jupyter -p 8888:8888 -it --rm --env-file .env -v ${PWD}:/app aibase jupyter lab --no-browser --ip="0.0.0.0"  --NotebookApp.token='' --NotebookApp.password=''
