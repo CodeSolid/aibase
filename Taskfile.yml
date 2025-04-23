@@ -9,4 +9,9 @@ tasks:
   shell:
     desc: Run bash in the Docker container with current directory mounted
     cmds:
-      - docker run -it --rm --env-file .env -v ${PWD}:/app aibase bash
+      - docker run -p 8888:8888 -it --rm --env-file .env -v ${PWD}:/app aibase bash
+
+  jupyter:
+    desc: Run Jupyter in the Docker container
+    cmds:
+      - docker run -p 8888:8888 -it --rm --env-file .env -v ${PWD}:/app aibase jupyter lab --no-browser --ip="0.0.0.0" --allow-root --NotebookApp.token='' --NotebookApp.password=''
