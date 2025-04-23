@@ -1,3 +1,4 @@
+# For use with conda to create a new environment for the AI Base project.
 name: aibase
 channels:
   - conda-forge

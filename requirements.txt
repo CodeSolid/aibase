@@ -1,3 +1,4 @@
+# For use with pip
 gradio
 huggingface_hub
 jupyterlab
