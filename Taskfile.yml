@@ -1,6 +1,12 @@
 version: '3'
 
 tasks:
+  download:
+    desc: pull the image from docker hub
+    cmds:
+      - docker pull codesolid/aibase
+      - docker tag codesolid/aibase aibase
+
   build:
     desc: Build the Docker image
     cmds:
