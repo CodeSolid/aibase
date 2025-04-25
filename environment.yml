@@ -23,6 +23,7 @@ dependencies:
     - numpy
     - pandas
     - pipdeptree
+    - polars
     - scikit-learn
     - scipy
     - seaborn
