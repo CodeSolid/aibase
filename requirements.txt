@@ -1,4 +1,5 @@
 # For use with pip
+datasets
 gradio
 huggingface_hub
 jupyterlab

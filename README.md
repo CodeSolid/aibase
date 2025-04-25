@@ -1,5 +1,5 @@
-# AI Base: Python tools to get started quickly.
-
+# AI Base: 
+*Tools for AI Engineering and Machine Learning*
 ## Overview
 
 This project contains a curated set of Python tools and libraries that one would need for work in AI Engineering and Machine Learning such as jupyterLab, langchain, tensorflow, pytorch and transformers.  To see the full set of what's included, see the requirements.txt file. 
