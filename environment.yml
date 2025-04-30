@@ -14,6 +14,9 @@ dependencies:
     - keras
     - langchain
     - langchain-anthropic
+    - langchain-community
+    - tavily-python
+    - wikipedia
     - langchain-huggingface
     - langchain-mistralai
     - langchain-ollama
