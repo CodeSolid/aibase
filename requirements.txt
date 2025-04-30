@@ -11,6 +11,7 @@ langchain-mistralai
 langchain-ollama
 langchain-openai
 langgraph
+langgraph-cli[inmem]
 matplotlib
 numpy
 pandas
